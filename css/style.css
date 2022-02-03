@@ -51,6 +51,16 @@ p {
     box-sizing: border-box;
 }
 
+/*以下、島追加*/
+#profile {
+    display: flex;
+}
+#profile div {
+     display: block !important; 
+    justify-content: center;
+    /* align-items: center; */
+}
+
 /*タブレット 縦のみ	*/
 @media screen and (max-width: 1024px) and (orientation: portrait){
     
